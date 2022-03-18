@@ -14,7 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/site-packages
+lib/counting-frogs/data
 lib64/
 parts/
 sdist/
@@ -26,6 +27,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+share
+etc
+Scripts
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
