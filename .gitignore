@@ -16,6 +16,7 @@ eggs/
 .eggs/
 lib/site-packages
 lib/counting-frogs/data
+lib/examples/data
 lib64/
 parts/
 sdist/
