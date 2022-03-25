@@ -1,2 +1,2 @@
 # counting-frogs main __init__ file
-from .utils import *
+from .utils import Grid
