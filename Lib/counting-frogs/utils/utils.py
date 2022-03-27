@@ -50,6 +50,7 @@ def count_frogs(df, degrees, lat_col, long_col):
 
     empty_grid = build_grid(unique_coords, degrees)
     merged_grid = empty_grid.grid.merge(unique_coords, how="left")
+    merged_grid["frog_count"] = merged_grid["frog_count"].fillna(0)
     
     return merged_grid
 
